@@ -1,5 +1,5 @@
 import React from "react";
-import { contactLinks } from "../constants";
+import Social from "../components/Social";
 
 const Contact = () => {
   return (
@@ -94,19 +94,7 @@ const Contact = () => {
             </p>
 
             <h1 className="text-3xl font-bold text-blue-500">Links</h1>
-            <ul className="flex">
-              {contactLinks.map((el) => (
-                <a
-                  key={el.name}
-                  href={el.link}
-                  className="md:ml-6 md:mr-0 mr-6 cursor-pointer mt-4 hover:scale-125"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img alt={el.name} src={el.logo} className="w-8 h-8" />
-                </a>
-              ))}
-            </ul>
+            <Social />
           </div>
         </div>
       </div>

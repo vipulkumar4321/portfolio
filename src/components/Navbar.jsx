@@ -1,9 +1,22 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import { motion, AnimatePresence } from "framer-motion";
 import Hamburger from "hamburger-react";
 
 const Navbar = () => {
+  useEffect(() => {
+    const scrollDownAndUp = () => {
+      setTimeout(() => {
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollBy(0, -1);
+        }, 0);
+      }, 0);
+    };
+
+    scrollDownAndUp();
+  }, []);
+
   const [toggle, setToggle] = useState(false);
   const links = [
     {
@@ -33,7 +46,12 @@ const Navbar = () => {
       >
         <div className="flex justify-between items-center py-2 pl-2 md:py-4 md:px-2 md:mx-6 lg:mx-44">
           <div className="flex items-center cursor-pointer">
-            <a href="/" className={"text-4xl font-extrabold text-gray-100"}>
+            <a
+              href="/"
+              className={
+                "text-4xl font-extrabold text-gray-100 hover:text-blue-500"
+              }
+            >
               Vipul
             </a>
           </div>

@@ -1,4 +1,3 @@
-import { ThemeProvider } from "./themeProvider";
 import Navbar from "./components/Navbar";
 import Home from "./views/Home";
 import About from "./views/About";
@@ -8,14 +7,14 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <ThemeProvider>
+    <div>
       <Navbar />
       <Home />
       <About />
       <Projects />
       <Contact />
       <Footer />
-    </ThemeProvider>
+    </div>
   );
 }
 

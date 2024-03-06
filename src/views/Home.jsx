@@ -1,6 +1,6 @@
 import React from "react";
 import Typical from "react-typical";
-import { contactLinks } from "../constants";
+import Social from "../components/Social";
 import background from "../assets/background.webp";
 import resume from "../assets/Resume_Vipul_Kumar.pdf";
 
@@ -43,22 +43,7 @@ const Home = () => {
             I am an engineer experienced in delivering high-quality code and
             successfully executing projects.
           </p>
-          <div className="flex justify-center">
-            {contactLinks.map((el) => (
-              <a
-                key={el.name}
-                href={el.link}
-                className="mr-5 cursor-pointer mt-8 hover:scale-125"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img alt={el.name} src={el.logo} className="w-8 h-8" />
-                <p className="text-md text-gray-100 mt-2 hidden hover:hidden">
-                  {el.name}
-                </p>
-              </a>
-            ))}
-          </div>
+          <Social />
 
           <div className="mt-8 flex justify-center">
             <a

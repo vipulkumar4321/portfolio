@@ -7,14 +7,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
   scrollbar-width: 2px !important;
-  /* background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%); */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-*/ .switch {
+.switch {
   width: 160px;
   height: 100px;
   background-color: rgba(255, 255, 255, 0.4);

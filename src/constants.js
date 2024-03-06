@@ -37,7 +37,7 @@ export const contactLinks = [
   {
     name: "WhatsApp",
     logo: require("../src/assets/icons/whatsapp.svg").default,
-    link: "https://api.whatsapp.com/send?phone=8765263553",
+    link: "https://api.whatsapp.com/send?phone=918765263553",
   },
   {
     name: "Mail",
