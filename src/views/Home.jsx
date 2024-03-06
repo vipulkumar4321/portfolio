@@ -1,5 +1,5 @@
 import React from "react";
-import Typical from "react-typical";
+import { Typewriter } from "react-simple-typewriter";
 import Social from "../components/Social";
 import background from "../assets/background.webp";
 import resume from "../assets/Resume_Vipul_Kumar.pdf";
@@ -19,19 +19,20 @@ const Home = () => {
         <div className="text-center">
           <h1 className="text-4xl tracking-tight font-extrabold justify-center sm:text-5xl md:text-6xl">
             <span className="text-gray-100">Hi, I am Vipul</span>
-            <span className="text-blue-500">
-              <Typical
-                steps={[
+            <span className="text-blue-500 block">
+              <Typewriter
+                words={[
                   "Software Engineer",
-                  2000,
                   "Front End Developer",
-                  2000,
                   "Back End Developer",
-                  2000,
                   "Full Stack Developer",
-                  2000,
                 ]}
                 loop={Infinity}
+                cursor
+                cursorStyle="_"
+                typeSpeed={60}
+                deleteSpeed={70}
+                delaySpeed={1800}
               />
             </span>
           </h1>
