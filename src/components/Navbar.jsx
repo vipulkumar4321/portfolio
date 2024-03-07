@@ -41,7 +41,7 @@ const Navbar = () => {
     <>
       <nav
         className={
-          "bg-opacity-500 border-gray-400 z-50 shadow-lg md:px-8 px-1 fixed w-full top-0"
+          "bg-opacity-80 backdrop-filter backdrop-blur-sm border-gray-400 z-50 shadow-lg md:px-8 px-1 fixed w-full top-0"
         }
       >
         <div className="flex justify-between items-center py-2 pl-2 md:py-4 md:px-2 md:mx-6 lg:mx-44">
