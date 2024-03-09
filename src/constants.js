@@ -1,3 +1,7 @@
+import expenseTrackerImg from "../src/assets/projectPics/expenseTracker.jpg";
+import portfolioImg from "../src/assets/projectPics/portfolio.jpg";
+import defaultImg from "../src/assets/projectPics/projectPic.webp";
+
 export const contactLinks = [
   {
     name: "LinkedIn",
@@ -64,7 +68,7 @@ export const projects = [
     ],
     link: "https://github.com/vipulkumar4321/portfolio",
     live: "https://mrvipulkumar.com",
-    img: require("../src/assets/projectPics/expenseTracker.png").default,
+    img: portfolioImg,
   },
   {
     title: "Expense Tracker",
@@ -75,7 +79,7 @@ export const projects = [
     ],
     link: "https://github.com/vipulkumar4321/React-Expense-Tracker",
     live: "https://project-expense-tracker.mrvipulkumar.com",
-    img: require("../src/assets/projectPics/expenseTracker.png").default,
+    img: expenseTrackerImg,
   },
   {
     title: "Bird Species Recognition System",
@@ -85,28 +89,28 @@ export const projects = [
       "Integrated an inbuilt Wikipedia scraper to provide additional information about recognized bird species.",
     ],
     link: "https://github.com/vipulkumar4321/BIrdFinder/tree/Vipul",
-    img: require("../src/assets/projectPics/projectPic.webp").default,
+    img: defaultImg,
   },
-  {
-    title: "Web-to-Mobile",
-    tech: ["Node.js", "Express", "AWS"],
-    content: [
-      "Enable users to send messages from websites to designated mobile numbers.",
-      "Showcased versatility in developing cross-platform communication solutions.",
-    ],
-    link: "https://github.com/vipulkumar4321?tab=repositories",
-    img: require("../src/assets/projectPics/projectPic.webp").default,
-  },
-  {
-    title: "Blog",
-    tech: ["Node.js", "Express", "JavaScript", "MongoDB", "Semantic UI", "AWS"],
-    content: [
-      "Designed and developed a fully customizable cross-platform blog website from scratch",
-      "Demonstrated expertise in front-end and back-end development and deployment on cloud platforms.",
-    ],
-    link: "https://github.com/vipulkumar4321?tab=repositories",
-    img: require("../src/assets/projectPics/projectPic.webp").default,
-  },
+  // {
+  //   title: "Web-to-Mobile",
+  //   tech: ["Node.js", "Express", "AWS"],
+  //   content: [
+  //     "Enable users to send messages from websites to designated mobile numbers.",
+  //     "Showcased versatility in developing cross-platform communication solutions.",
+  //   ],
+  //   link: "https://github.com/vipulkumar4321?tab=repositories",
+  //   img: defaultImg,
+  // },
+  // {
+  //   title: "Blog",
+  //   tech: ["Node.js", "Express", "JavaScript", "MongoDB", "Semantic UI", "AWS"],
+  //   content: [
+  //     "Designed and developed a fully customizable cross-platform blog website from scratch",
+  //     "Demonstrated expertise in front-end and back-end development and deployment on cloud platforms.",
+  //   ],
+  //   link: "https://github.com/vipulkumar4321?tab=repositories",
+  //   img: defaultImg,
+  // },
   {
     title: "OCR Model",
     tech: ["Node.js", "Express", "AWS"],
@@ -115,7 +119,7 @@ export const projects = [
       "Ensured accessibility and ease-of-use by allowing users to effortlessly process images and retrieve extracted text directly from the browser.",
     ],
     link: "https://github.com/vipulkumar4321/OCRmodel",
-    img: require("../src/assets/projectPics/projectPic.webp").default,
+    img: defaultImg,
   },
 ];
 

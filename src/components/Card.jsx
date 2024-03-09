@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import projectPic from "../assets/projectPics/projectPic.webp";
 
 const Card = ({ title, tech, content, link, live, img }) => {
   const bubbleColors = [
@@ -20,8 +19,7 @@ const Card = ({ title, tech, content, link, live, img }) => {
       }}
       class="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
     >
-      <img class="rounded-t-lg w-full" src={projectPic} alt="project" />
-      {/* <img class="rounded-t-lg w-full" src={img} alt="project" /> */}
+      <img class="rounded-t-lg w-full" src={img} alt="project" />
 
       <div class="p-5">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
