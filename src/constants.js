@@ -48,14 +48,23 @@ export const contactLinks = [
 
 export const projects = [
   {
-    title: "Bird Species Recognition System",
-    tech: ["React", "Flask", "AWS", "Gunicorn", "Deep Learning"],
-    content: [
-      "Identify bird species from provided images with an accuracy rate of 98%.",
-      "Integrated an inbuilt Wikipedia scraper to provide additional information about recognized bird species.",
+    title: "Portfolio Website",
+    tech: [
+      "React",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Tailwind",
+      "Git/Github",
+      "...",
     ],
-    link: "https://github.com/vipulkumar4321/BIrdFinder/tree/Vipul",
-    img: require("../src/assets/projectPic.webp").default,
+    content: [
+      "Developed a personal website showcasing portfolio, skills, and projects using React.js and Tailwind CSS",
+      "Employed modern design principles and responsive layouts for seamless user interaction across devices.",
+    ],
+    link: "https://github.com/vipulkumar4321/portfolio",
+    live: "https://mrvipulkumar.com",
+    img: require("../src/assets/projectPics/expenseTracker.png").default,
   },
   {
     title: "Expense Tracker",
@@ -65,7 +74,18 @@ export const projects = [
       "Demonstrated proficiency in React development and deployment on cloud infrastructure.",
     ],
     link: "https://github.com/vipulkumar4321/React-Expense-Tracker",
-    img: require("../src/assets/projectPic.webp").default,
+    live: "https://project-expense-tracker.mrvipulkumar.com",
+    img: require("../src/assets/projectPics/expenseTracker.png").default,
+  },
+  {
+    title: "Bird Species Recognition System",
+    tech: ["React", "Flask", "AWS", "Gunicorn", "Deep Learning"],
+    content: [
+      "Identify bird species from provided images with an accuracy rate of 98%.",
+      "Integrated an inbuilt Wikipedia scraper to provide additional information about recognized bird species.",
+    ],
+    link: "https://github.com/vipulkumar4321/BIrdFinder/tree/Vipul",
+    img: require("../src/assets/projectPics/projectPic.webp").default,
   },
   {
     title: "Web-to-Mobile",
@@ -75,7 +95,7 @@ export const projects = [
       "Showcased versatility in developing cross-platform communication solutions.",
     ],
     link: "https://github.com/vipulkumar4321?tab=repositories",
-    img: require("../src/assets/projectPic.webp").default,
+    img: require("../src/assets/projectPics/projectPic.webp").default,
   },
   {
     title: "Blog",
@@ -85,7 +105,7 @@ export const projects = [
       "Demonstrated expertise in front-end and back-end development and deployment on cloud platforms.",
     ],
     link: "https://github.com/vipulkumar4321?tab=repositories",
-    img: require("../src/assets/projectPic.webp").default,
+    img: require("../src/assets/projectPics/projectPic.webp").default,
   },
   {
     title: "OCR Model",
@@ -95,7 +115,7 @@ export const projects = [
       "Ensured accessibility and ease-of-use by allowing users to effortlessly process images and retrieve extracted text directly from the browser.",
     ],
     link: "https://github.com/vipulkumar4321/OCRmodel",
-    img: require("../src/assets/projectPic.webp").default,
+    img: require("../src/assets/projectPics/projectPic.webp").default,
   },
 ];
 
